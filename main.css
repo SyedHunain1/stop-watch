@@ -1,0 +1,71 @@
+*{
+    margin: 0 20px;
+    padding: 20px 15px;
+    outline: 0;
+}
+
+body{
+    background-image: url(https://www.teahub.io/photos/full/20-209925_vertical-wallpaper-data-src-img-272186-monochrome.jpg);
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: azure;
+    box-shadow: 0 2px 8px rgba(0,0,0.1);
+    width: 460px;
+    height: 600px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h1{
+    margin: 12px 0;
+}
+.element-list{
+    margin:  12px 0;
+}
+input{
+    padding: 6px 4px;
+    width: 70%;
+}
+button{
+    margin: 0 10px;
+    padding: 7px 14px;
+    background-color: rgb(47, 0, 255);
+    border: none;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+}
+.element-list{
+    height: 550px;
+    overflow-y: auto;
+
+}
+ul{
+    padding: 15px;
+}
+li{
+    list-style: none;
+    padding: 10px 5px;
+    background-color: aliceblue;
+    margin: 12px 0;
+    box-shadow: 0 2px 8px rgb(223, 208, 208);
+    border-radius: 3px;
+    transition: .4s;
+}
+
+button:hover{
+    background-color: rgb(17, 87, 81);
+}
+
+li:hover{
+    background-color: rgb(65, 255, 246);
+}
+
+.checked{
+    text-decoration: line-through;
+    background-color: cornsilk;
+}
